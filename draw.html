@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Game Programming -- Exercise-4</title>
+		<meta charset="utf-8">
+		<meta name="author" content="xizheng ding @ Lakehead Unversity">
+		<link type="text/css" href="draw.css" rel="stylesheet">
+		<link rel="stylesheet" media="screen" type="text/css" href="css/colorpicker.css" />
+	</head>
+	<body>
+		<div id="MenuBar">
+			<div id="undo" class="MenuItem"><img class="MenuImg" src="img/undo.png"> undo operation</div>
+			<div id="mouse" class="MenuItem"><img class="MenuImg" src="img/cursor.png"> mouse tool</div>
+			<div id="edit" class="MenuItem"><img class="MenuImg" src="img/selection.png"> edit shape</div>
+			<div id="addrect" class="MenuItem"><img class="MenuImg" src="img/square.png"> add rectangle</div>
+			<div id="addcircle" class="MenuItem"><img class="MenuImg" src="img/circle.png"> add circle</div>
+			<div id="addline" class="MenuItem"><img class="MenuImg" src="img/line.png"> add line</div>
+			<div id="copy" class="MenuItem"><img class="MenuImg" src="img/copy.png"> copy shape</div>
+			<div id="cut" class="MenuItem"><img class="MenuImg" src="img/cut.png"> cut shape</div>
+			<div id="paste" class="MenuItem"><img class="MenuImg" src="img/paste.png"> paste shape</div>
+			<div id="delete" class="MenuItem"><img class="MenuImg" src="img/delete.png"> delete shape</div>
+		</div>
+		<div id="colorBar">
+			<div style="float: left">&nbsp;&nbsp;fill:&nbsp;</div>
+			<div id="fillcolor">
+				<div style="background-color: rgb(40, 40, 87);"></div>
+			</div>
+			<div style="float: left">&nbsp;&nbsp;stroke:&nbsp;</div>
+			<div id="strokecolor">
+				<div style="background-color: rgb(40, 40, 87);"></div>
+			</div>
+		</div>
+		<div id="Container">
+			<div id="canvasContainner"></div>
+		</div>
+	</body>
+	<script src="mylib.js" type="text/javascript"></script>
+	<script src="Kinetic-v4.3.3.min.js" type="text/javascript"></script>
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/colorpicker.js" type="text/javascript"></script>
+	<script src="canvasObject.js" type="text/javascript"></script>
+	<script src="commands.js" type="text/javascript"></script>
+	<script src="menu.js" type="text/javascript"></script>
+	<script src="canvas.js" type="text/javascript"></script>
+	<script src="main.js" type="text/javascript"></script>
+</html>

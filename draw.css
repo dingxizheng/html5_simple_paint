@@ -1,0 +1,94 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	background: #ddd;
+	font-family: arial;
+	font-size: 10px;
+	color: #888;
+}
+#Container{
+	margin: 100px auto;
+	width: 700px;
+	height: 480px;
+	border-radius: 6px;
+	box-shadow: 0px 5px 50px #444;
+	position: relative;
+	overflow: hidden;
+}
+#canvasContainner{
+	width: 700px;
+	height: 480px;
+	background: #fff;
+	z-index: -1;
+}
+#MenuBar{
+	min-height: 40px;
+	height: auto;
+	width: 140px;
+	border-radius: 3px;
+	box-shadow: 0px 2px 10px #444;
+	position: absolute;	
+	background: #fdfdfd;
+	left: 100px;
+	top: 100px;
+	z-index: 1;
+	padding: 2px 2px;
+}
+.MenuItem{
+	margin:6px 5px;
+	height: 16px;
+	text-align: vertical-center;
+	padding: 0px 5px;
+}
+.MenuImg{
+	 height: 16;
+	 width: 16;
+}
+#colorBar{
+	height: 40px;
+	width: 200px;
+	border-radius: 3px;
+	box-shadow: 0px 2px 10px #444;
+	background: #fdfdfd;
+	font-family: arial;
+	font-size: 20px;
+	position: absolute;
+	z-index: 1;
+}
+#fillcolor {
+	position: relative;
+	float:left;
+	width: 36px;
+	height: 36px;
+	background: url(../images/select.png);
+	border-radius: 3px;
+	box-shadow: 0px 2px 5px #444;
+	background: #fff;
+}
+#fillcolor div {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 34px;
+	height: 34px;
+	background: url(../images/select.png) center;
+}
+#strokecolor{
+	position: relative;
+	float: left;
+	width: 36px;
+	height: 36px;
+	background: url(../images/select.png);
+	border-radius: 3px;
+	box-shadow: 0px 2px 5px #444;
+	background: #fff;
+}
+#strokecolor div {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 34px;
+	height: 34px;
+	background: url(../images/select.png) center;
+}
